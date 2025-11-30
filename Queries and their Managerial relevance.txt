@@ -1,0 +1,27 @@
+Queries and their Managerial relevance:
+
+Query 1:
+
+# Identify Top-Performing Movies by Revenue
+# Managerial relevance: Helps managers know which movies generate the most money across all theaters.
+
+
+Query 2:
+
+# Determine Theater Staffing Cost per Month
+# Managerial relevance: Allows management to assess labor expenses per theater for budgeting.
+
+Query 3:
+
+# Find Peak Showtime Hours Across All Theaters
+# Managerial relevance: Helps managers allocate staff and schedule popular time slots.
+
+Query 4:
+
+# Identify Customers Who Frequently Attend Movies
+# Managerial relevance: Useful for loyalty program targeting, targeted marketing, or upselling.
+
+Query 5:
+
+# Auditorium Utilization Rate
+# Managerial relevance: Helps managers understand which auditoriums are underused or overused and adjust scheduling.
