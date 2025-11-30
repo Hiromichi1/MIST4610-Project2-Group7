@@ -21,73 +21,32 @@ This movie theater database efficiently manages theater operations, including mo
 
 ## Data Dictionary
 
-#### Movie
-| Column Name | Data Type | Description |
-|---|---|---|
-| idMovie | INT | Unique identifier for each movie (Primary Key) |
-| name | VARCHAR(45) | Title of the movie |
-| genre | VARCHAR(45) | Genre of the movie |
-| studio | VARCHAR(45) | Production studio of the movie |
-| runtime | INT | Duration of the movie in minutes |
-| release_date | DATE | Official release date |
-| content_rating | VARCHAR(10) | Age restriction rating (e.g., PG, R) |
-
-#### Showtime
-| Column Name | Data Type | Description |
-|---|---|---|
-| idShowtime | INT | Unique identifier for each showtime (Primary Key) |
-| start_time | DATETIME | Date and time the movie starts |
-| Movie_idMovie | INT | Foreign key linking to the Movie table |
-| Theater_idTheater | INT | Foreign key linking to the Theater |
-
-#### Ticket
-| Column Name | Data Type | Description |
-|---|---|---|
-| idTicket | INT | Unique identifier for the ticket (Primary Key) |
-| price | DECIMAL(5,2) | Cost of the ticket |
-| purchase_date | DATETIME | Date when the ticket was purchased |
-| type_of_ticket | VARCHAR(45) | Type (Adult, Child, Senior) |
-| Showtime_idShowtime | INT | Foreign key linking to the Showtime |
-| Customer_idCustomer | INT | Foreign key linking to the Customer |
+#### Workers
+![Workers](Workers.png)
 
 #### Customer
-| Column Name | Data Type | Description |
-|---|---|---|
-| idCustomer | INT | Unique identifier for the customer (Primary Key) |
-| name | VARCHAR(45) | Full name of the customer |
-| email | VARCHAR(45) | Contact email for the customer |
+![Customer](Customer.png)
 
-#### Auditorium
-| Column Name | Data Type | Description |
-|---|---|---|
-| idAuditorium | INT | Unique identifier for the auditorium (Primary Key) |
-| auditorium_no | VARCHAR(10) | Room number or name |
-| capacity | INT | Maximum seating capacity |
-| format | VARCHAR(45) | Screen format (e.g., IMAX, Standard) |
+#### Movie
+![Movie](Movie.png)
 
 #### Seat
-| Column Name | Data Type | Description |
-|---|---|---|
-| idSeat | INT | Unique identifier for the seat (Primary Key) |
-| row | VARCHAR(5) | Row letter of the seat |
-| number | INT | Seat number in the row |
-| Auditorium_idAuditorium | INT | Foreign key linking to the Auditorium |
+![Seat](Seat.png)
 
-#### Workers
-| Column Name | Data Type | Description |
-|---|---|---|
-| idWorker | INT | Unique identifier for the employee (Primary Key) |
-| name | VARCHAR(45) | Name of the employee |
-| position | VARCHAR(45) | Job title (e.g., Usher, Manager) |
-| hire_date | DATE | Date the employee was hired |
+#### Showtime
+![Showtime](Showtime.png)
+
+#### Theater
+![Theater](Theater.png)
+
+#### Theater_has_Menu_Item
+![Theater_has_Menu_Item](theater_has_menu_items.png)
 
 #### Menu_Item
-| Column Name | Data Type | Description |
-|---|---|---|
-| idMenu_Item | INT | Unique identifier for the food item (Primary Key) |
-| name | VARCHAR(45) | Name of the snack or drink |
-| price | DECIMAL(5,2) | Cost of the item |
-| calories | INT | Caloric content of the item |
+![Menu_Item](Menu_Items.png)
+
+#### Ticket
+![Ticket](Ticket.png)
 
 ## Queries
 
