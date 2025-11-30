@@ -101,29 +101,29 @@ This movie theater database efficiently manages theater operations, including mo
 #### 1. Identify Top-Performing Movies by Revenue
 Helps managers know which movies generate the most money across all theaters.
 
-![Query1](query 1.png)
+![Query1](query_1.png)
 
 #### 2. Determine Theater Staffing Cost per Month
 Allows management to assess labor expenses per theater for budgeting.
 
-![Query2](query 2.png)
+![Query2](query_2.png)
 
 #### 3. Find Peak Showtime Hours Across All Theaters
 Helps managers allocate staff and schedule popular time slots.
 
-![Query3](query 3.png)
+![Query3](query_3.png)
 
 #### 4. Identify Customers Who Frequently Attend Movies
 Useful for loyalty program targeting, targeted marketing, or upselling.
 
-![Query4 Code](query 4.png)
-![Query4 Result](query 4 results.png)
+![Query4 Code](query_4.png)
+![Query4 Result](query_4_results.png)
 
 #### 5. Auditorium Utilization Rate
 Helps managers understand which auditoriums are underused or overused and adjust scheduling.
 
-![Query5 Code](query 5 .png)
-![Query5 Result](query 5 results.png)
+![Query5 Code](query_5_.png)
+![Query5 Result](query_5_results.png)
 
 ## Tableau Visualizations
 
