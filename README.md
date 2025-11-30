@@ -6,7 +6,7 @@ Rachel Davies, Hiromichi Kikuchi, Anirudh Pothuri, and Sakshi Sinha
 ## Description
 This movie theater database efficiently manages theater operations, including movie scheduling, ticket sales, auditorium capacity, and customer interactions. It tracks movies, showtimes, and ticket transactions, while also organizing theater rooms and seating arrangements. Customer data is stored to track purchasing history and preferences. The database links customers, tickets, movies, and auditoriums, providing a streamlined system for managing daily box office activities. While comprehensive for operational needs, it focuses on improving efficiency and optimizing the movie-going experience.
 
-![Movie Theater Data Model](datamodel_movietheater.jpg)
+![Movie Theater Data Model](datamodel_movietheater.png)
 
 - **Movie:** Stores movie details, including title, genre, runtime, and content rating.
 - **Showtime:** specific times when movies are screened, linking a movie to a theater room.
@@ -106,7 +106,7 @@ Helps managers know which movies generate the most money across all theaters.
 #### 2. Determine Theater Staffing Cost per Month
 Allows management to assess labor expenses per theater for budgeting.
 
-![Query2](query2.png)
+![Query2](query 2.png)
 
 #### 3. Find Peak Showtime Hours Across All Theaters
 Helps managers allocate staff and schedule popular time slots.
