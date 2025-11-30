@@ -48,6 +48,9 @@ This movie theater database efficiently manages theater operations, including mo
 #### Ticket
 ![Ticket](Ticket.png)
 
+#### Auditorium
+![Auditorium](Auditorium.png)
+
 ## Queries
 
 ![Query Matrix](queries_table_with_attributes.png)
