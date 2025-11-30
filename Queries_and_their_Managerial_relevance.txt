@@ -24,4 +24,5 @@ Query 4:
 Query 5:
 
 # Auditorium Utilization Rate
+
 # Managerial relevance: Helps managers understand which auditoriums are underused or overused and adjust scheduling.
