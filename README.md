@@ -91,12 +91,7 @@ This movie theater database efficiently manages theater operations, including mo
 
 ## Queries
 
-| Database information | Query 1 | Query 2 | Query 3 | Query 4 | Query 5 |
-|---|---|---|---|---|---|
-| **Multiple table join** | x | x | x | x | x |
-| **Create view** | | | | | |
-| **Group by, Aggregation** | x | x | x | x | x |
-| **Join** | x | x | x | x | x |
+![Query Matrix](queries_table_with_attributes.png)
 
 #### 1. Identify Top-Performing Movies by Revenue
 Helps managers know which movies generate the most money across all theaters.
